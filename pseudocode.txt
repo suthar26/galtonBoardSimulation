@@ -1,0 +1,18 @@
+public class Main {
+	public static void main(String[] Args) {
+		initialize scanner object;
+		print "how many balls?"
+		num = next user input
+		DLList results = new DLList();
+		for: 0 to num
+			position = 25
+			for: 0 to 25
+				if (rand.nextBoolean())
+					position++
+				else
+					position--
+			position /= 2
+			results.set(position, results.get(position)+1)
+		print results
+	}
+}
